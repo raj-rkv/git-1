@@ -1,1 +1,1 @@
-# Post your Assignment Here
+# Post your Assignment and Daily Notes Here
