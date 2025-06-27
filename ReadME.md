@@ -2,11 +2,11 @@
 🎓 2-Bit Paathshala – Batch 1 Repository
 
 Welcome to the official repository for Batch 1 of 2-Bit Paathshala!
-This space is dedicated to empowering students from financially weak backgrounds by providing them completely free education, guidance, and employment opportunities.
+This space is dedicated to empowering individuals by providing free education, guidance, and employment opportunities.
 
 🌱 About 2-Bit Paathshala
 
-2-Bit Paathshala is a community-driven initiative focused on bridging the gap between quality education and accessibility. We aim to build a learning ecosystem where students can grow their knowledge, work on real projects, and prepare for job opportunities in tech and other industries.
+2-Bit Paathshala is a community-driven initiative focused on bridging the gap between real education and accessibility. It is not just for financially weak students but for anyone who lacks exposure to quality learning. Our goal is to equip learners with the right education, enabling them to build and create meaningful technology while preparing for promising career opportunities across various industries.
 
 Our core values:
 
