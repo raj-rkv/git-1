@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .container{
+        height: 400px;
+        width: 900px;
+        border: 5px solid black;
+        display: flex;
+        gap: 50px;
+    }
+    #a{
+        height:300px;
+        width: 300px;
+        border: 2px solid rgb(51, 48, 48);
+        margin-left: 130px;
+        margin-top: 50px;
+    }
+    #b{
+        height:300px;
+        width: 300px;
+        border: 2px solid rgb(51, 48, 48);
+        margin-top: 50px;
+    }
+    #c{
+      height:200px;
+        width: 200px;
+        border: 2px solid rgb(51, 48, 48);  
+        margin-left: 50px;
+        margin-top: 50px;
+    }
+    #clickbtn{
+        height:50px;
+        width: 100px;
+        border: 2px solid rgb(51, 48, 48);  
+        margin-left: 50px;
+        margin-top: 70px;
+    }
+    #d{
+       height:200px;
+        width: 200px;
+        border: 2px solid rgb(51, 48, 48);  
+        margin-left: 50px;
+        margin-top: 50px; 
+    }
+    .container{
+        background-color: rgb(240, 198, 205);
+    }
+    #d{
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+</style>
+<body>
+    <h1>Event Bubble</h1>
+    <div class="container" id="cont" onclick="cont()">
+<div id="a" onclick="adiv()">a
+    <div id="c" onclick="cdiv()">c
+        <button id="clickbtn" onclick="myfun()">click me</button>
+    </div>
+</div>
+<div id="b" onclick="bdiv()">b<div id="d" onclick="ddiv()">Lorem ipsum adipisicinipsum blanditiis asperiores sequi animi iste consectetur. Amet modi corporis repellat enim culpa explicabo consequuntur minima ut!</div></div>
+    </div>
+    <script>
+        function myfun(){
+            document.getElementById("clickbtn").style.backgroundColor = "green";
+        }
+         function ddiv(){
+            document.getElementById("d").style.background = "white";
+        }
+        function adiv(){
+            document.getElementById("a").style.backgroundColor = "red";
+        }
+        function cdiv(){
+            document.getElementById("c").style.backgroundColor = "blue";
+        }
+        function bdiv(){
+            document.getElementById("b").style.backgroundColor = "green";
+        }
+        function cont(){
+            document.getElementById("cont").style.backgroundColor = "yellow"
+        }
+    </script>
+</body>
+</html>
