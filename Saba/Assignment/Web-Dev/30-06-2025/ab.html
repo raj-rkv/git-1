@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>HELLO IN MY JS PAGE </h1>
+<script>
+    function car(name , brand){
+        console.log(this);
+        // yaha this.name   car.name ko refer kar rha hai
+        
+        this.name = name;
+        this.brand = brand;
+        //console.log(name , brand);
+    }
+    let nanoCar = new car("nano" , "tata");
+      let marutiCar = new car("maruti" , "marutiSuzuki");
+      console.log(nanoCar);
+      console.log(marutiCar);
+</script>
+</body>
+</html>
