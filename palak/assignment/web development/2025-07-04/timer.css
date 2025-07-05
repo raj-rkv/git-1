@@ -1,0 +1,94 @@
+body{
+    background-color: aqua;
+}
+.badabox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 320px;
+    margin-right: 320px;
+    margin-top: 170px;    
+    
+}
+.box{
+    height: 110px;
+    width: 145px;
+    background-color: rgba(37, 37, 176, 0.947);
+    border-radius: 10%;
+    border: 2px solid rgba(237, 229, 229, 0.932);
+    
+}
+
+.box,p{
+    text-align: center;
+    margin-top: 29px;
+    font-size: 18px;
+    color: aliceblue;
+}
+.badarectangle{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 359px;
+    margin-right: 359px;
+    margin-top: 27px;
+    
+    
+}
+.rec{
+    height: 18.5px;
+    width: 65px;
+    background-color: white;
+    text-align: center;
+    border: 2px solid rgba(161, 156, 156, 0.932);
+}
+.tesrabox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 628px;
+    margin-right: 628px;
+    margin-top: 140px;
+    cursor: pointer;
+    
+}
+
+.settimer{
+    height: 22px;
+    width: 70px;
+    background-color: yellow;
+    text-align: center;
+    border-radius: 8%;
+    cursor: pointer;
+}
+
+.startresume{
+    height: 22px;
+    width: 89px;
+    background-color: green;
+    text-align: center;
+    border-radius: 8%;
+    cursor: pointer;
+}
+
+.pau{
+    height: 22px;
+    width: 50px;
+    background-color: red;
+    text-align: center;
+    border-radius: 8%;
+    cursor: pointer;
+}
+
+.reset{
+    height: 22px;
+    width: 40px;
+    background-color: rgba(242, 182, 19, 0.953);
+    text-align: center;
+    border-radius: 8%;
+    cursor: pointer;
+}
+
+button:hover{
+    transform: scale(1.1);
+}
